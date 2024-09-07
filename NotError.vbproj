@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C82516D-0518-4161-970F-2E40A386E5A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>NotError.My.MyApplication</StartupObject>
+    <RootNamespace>NotError</RootNamespace>
+    <AssemblyName>NotError</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>NotError.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>NotError.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLASS\MyColor.vb" />
+    <Compile Include="CLASS\MyFunction.vb" />
+    <Compile Include="CLASS\MyStrings.vb" />
+    <Compile Include="CONTROL\ctlDashboard.Designer.vb">
+      <DependentUpon>ctlDashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROL\ctlDashboard.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CONTROL\ctlPrivacy.Designer.vb">
+      <DependentUpon>ctlPrivacy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROL\ctlPrivacy.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CONTROL\ctlScanCenter.Designer.vb">
+      <DependentUpon>ctlScanCenter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CONTROL\ctlScanCenter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\MyButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FORMS\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS\frmPopup.Designer.vb">
+      <DependentUpon>frmPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS\frmPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CONTROL\ctlDashboard.resx">
+      <DependentUpon>ctlDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTROL\ctlPrivacy.resx">
+      <DependentUpon>ctlPrivacy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTROL\ctlScanCenter.resx">
+      <DependentUpon>ctlScanCenter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS\frmPopup.resx">
+      <DependentUpon>frmPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Privacy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protectsmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User ShieldB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Shield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BellNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrivacyNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ProtectNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DashboardNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bell1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Privacy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protectsmall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Protect1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shield1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoom Out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VPN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laptop Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Virus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Firewall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Austria1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disconnected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No Network.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
