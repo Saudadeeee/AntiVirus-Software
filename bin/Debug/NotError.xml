@@ -27,6 +27,11 @@ NotError
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:NotError.My.Resources.Resources.Austria">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:NotError.My.Resources.Resources.Bell">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -47,6 +52,11 @@ NotError
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:NotError.My.Resources.Resources.Connected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:NotError.My.Resources.Resources.Dashboard">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -62,6 +72,11 @@ NotError
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:NotError.My.Resources.Resources.Disconnected">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:NotError.My.Resources.Resources.Firewall">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -73,6 +88,11 @@ NotError
 </summary>
 </member>
 <member name="P:NotError.My.Resources.Resources.Laptop_Settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:NotError.My.Resources.Resources.No_Network">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

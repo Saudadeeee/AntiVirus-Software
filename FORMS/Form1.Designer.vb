@@ -23,6 +23,13 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnHelpN = New NotError.MyButton()
+        Me.btnSettingN = New NotError.MyButton()
+        Me.btnAccountN = New NotError.MyButton()
+        Me.btnNotiN = New NotError.MyButton()
+        Me.btnPrivacyN = New NotError.MyButton()
+        Me.btnProtectionN = New NotError.MyButton()
+        Me.btnDashboardN = New NotError.MyButton()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.imgAccount = New System.Windows.Forms.PictureBox()
         Me.imgSetting = New System.Windows.Forms.PictureBox()
@@ -37,15 +44,12 @@ Partial Class Form1
         Me.btnClose = New System.Windows.Forms.PictureBox()
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.EventLog1 = New System.Diagnostics.EventLog()
-        Me.CtlScanCenter1 = New NotError.ctlScanCenter()
         Me.CtlDashboard2 = New NotError.ctlDashboard()
-        Me.btnHelpN = New NotError.MyButton()
-        Me.btnSettingN = New NotError.MyButton()
-        Me.btnAccountN = New NotError.MyButton()
-        Me.btnNotiN = New NotError.MyButton()
-        Me.btnPrivacyN = New NotError.MyButton()
-        Me.btnProtectionN = New NotError.MyButton()
-        Me.btnDashboardN = New NotError.MyButton()
+        Me.CtlScanCenter1 = New NotError.ctlScanCenter()
+        Me.CtlPrivacy1 = New NotError.ctlPrivacy()
+        Me.CtlAccount1 = New NotError.ctlAccount()
+        Me.CtlSystem1 = New NotError.ctlSystem()
+        Me.CtlAccount2 = New NotError.ctlAccount()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.imgAccount, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -78,6 +82,97 @@ Partial Class Form1
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(208, 625)
         Me.Panel1.TabIndex = 0
+        '
+        'btnHelpN
+        '
+        Me.btnHelpN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnHelpN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnHelpN.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnHelpN.Location = New System.Drawing.Point(45, 577)
+        Me.btnHelpN.Name = "btnHelpN"
+        Me.btnHelpN.Size = New System.Drawing.Size(163, 44)
+        Me.btnHelpN.TabIndex = 15
+        Me.btnHelpN.Text = "Help"
+        Me.btnHelpN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnHelpN.UseVisualStyleBackColor = True
+        '
+        'btnSettingN
+        '
+        Me.btnSettingN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnSettingN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnSettingN.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnSettingN.Location = New System.Drawing.Point(45, 527)
+        Me.btnSettingN.Name = "btnSettingN"
+        Me.btnSettingN.Size = New System.Drawing.Size(163, 44)
+        Me.btnSettingN.TabIndex = 14
+        Me.btnSettingN.Text = "Setting"
+        Me.btnSettingN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnSettingN.UseVisualStyleBackColor = True
+        '
+        'btnAccountN
+        '
+        Me.btnAccountN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnAccountN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnAccountN.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnAccountN.Location = New System.Drawing.Point(45, 477)
+        Me.btnAccountN.Name = "btnAccountN"
+        Me.btnAccountN.Size = New System.Drawing.Size(163, 44)
+        Me.btnAccountN.TabIndex = 13
+        Me.btnAccountN.Text = "Account"
+        Me.btnAccountN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnAccountN.UseVisualStyleBackColor = True
+        '
+        'btnNotiN
+        '
+        Me.btnNotiN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnNotiN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnNotiN.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnNotiN.Location = New System.Drawing.Point(45, 288)
+        Me.btnNotiN.Name = "btnNotiN"
+        Me.btnNotiN.Size = New System.Drawing.Size(163, 44)
+        Me.btnNotiN.TabIndex = 12
+        Me.btnNotiN.Text = "System Performance"
+        Me.btnNotiN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnNotiN.UseVisualStyleBackColor = True
+        '
+        'btnPrivacyN
+        '
+        Me.btnPrivacyN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnPrivacyN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnPrivacyN.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnPrivacyN.Location = New System.Drawing.Point(45, 238)
+        Me.btnPrivacyN.Name = "btnPrivacyN"
+        Me.btnPrivacyN.Size = New System.Drawing.Size(163, 44)
+        Me.btnPrivacyN.TabIndex = 11
+        Me.btnPrivacyN.Text = "Privacy"
+        Me.btnPrivacyN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnPrivacyN.UseVisualStyleBackColor = True
+        '
+        'btnProtectionN
+        '
+        Me.btnProtectionN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnProtectionN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnProtectionN.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnProtectionN.Location = New System.Drawing.Point(45, 188)
+        Me.btnProtectionN.Name = "btnProtectionN"
+        Me.btnProtectionN.Size = New System.Drawing.Size(163, 44)
+        Me.btnProtectionN.TabIndex = 10
+        Me.btnProtectionN.Text = "Scan Center"
+        Me.btnProtectionN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnProtectionN.UseVisualStyleBackColor = True
+        '
+        'btnDashboardN
+        '
+        Me.btnDashboardN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnDashboardN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
+        Me.btnDashboardN.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.btnDashboardN.Location = New System.Drawing.Point(45, 138)
+        Me.btnDashboardN.Name = "btnDashboardN"
+        Me.btnDashboardN.Size = New System.Drawing.Size(163, 44)
+        Me.btnDashboardN.TabIndex = 9
+        Me.btnDashboardN.Text = "Dashboard"
+        Me.btnDashboardN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnDashboardN.UseVisualStyleBackColor = True
         '
         'Panel2
         '
@@ -213,21 +308,13 @@ Partial Class Form1
         Me.lblTitle.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.lblTitle.Location = New System.Drawing.Point(7, 13)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(257, 25)
+        Me.lblTitle.Size = New System.Drawing.Size(104, 25)
         Me.lblTitle.TabIndex = 0
-        Me.lblTitle.Text = "AntiVirus By Nankhanhhh"
+        Me.lblTitle.Text = "AntiVirus "
         '
         'EventLog1
         '
         Me.EventLog1.SynchronizingObject = Me
-        '
-        'CtlScanCenter1
-        '
-        Me.CtlScanCenter1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
-        Me.CtlScanCenter1.Location = New System.Drawing.Point(208, 50)
-        Me.CtlScanCenter1.Name = "CtlScanCenter1"
-        Me.CtlScanCenter1.Size = New System.Drawing.Size(922, 575)
-        Me.CtlScanCenter1.TabIndex = 3
         '
         'CtlDashboard2
         '
@@ -237,96 +324,45 @@ Partial Class Form1
         Me.CtlDashboard2.Size = New System.Drawing.Size(922, 575)
         Me.CtlDashboard2.TabIndex = 2
         '
-        'btnHelpN
+        'CtlScanCenter1
         '
-        Me.btnHelpN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
-        Me.btnHelpN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnHelpN.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnHelpN.Location = New System.Drawing.Point(45, 577)
-        Me.btnHelpN.Name = "btnHelpN"
-        Me.btnHelpN.Size = New System.Drawing.Size(163, 44)
-        Me.btnHelpN.TabIndex = 15
-        Me.btnHelpN.Text = "Help"
-        Me.btnHelpN.TopColor = System.Drawing.Color.IndianRed
-        Me.btnHelpN.UseVisualStyleBackColor = True
+        Me.CtlScanCenter1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlScanCenter1.Location = New System.Drawing.Point(208, 50)
+        Me.CtlScanCenter1.Name = "CtlScanCenter1"
+        Me.CtlScanCenter1.Size = New System.Drawing.Size(922, 575)
+        Me.CtlScanCenter1.TabIndex = 3
         '
-        'btnSettingN
+        'CtlPrivacy1
         '
-        Me.btnSettingN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
-        Me.btnSettingN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnSettingN.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnSettingN.Location = New System.Drawing.Point(45, 527)
-        Me.btnSettingN.Name = "btnSettingN"
-        Me.btnSettingN.Size = New System.Drawing.Size(163, 44)
-        Me.btnSettingN.TabIndex = 14
-        Me.btnSettingN.Text = "Setting"
-        Me.btnSettingN.TopColor = System.Drawing.Color.IndianRed
-        Me.btnSettingN.UseVisualStyleBackColor = True
+        Me.CtlPrivacy1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlPrivacy1.Location = New System.Drawing.Point(208, 50)
+        Me.CtlPrivacy1.Name = "CtlPrivacy1"
+        Me.CtlPrivacy1.Size = New System.Drawing.Size(922, 575)
+        Me.CtlPrivacy1.TabIndex = 4
         '
-        'btnAccountN
+        'CtlAccount1
         '
-        Me.btnAccountN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
-        Me.btnAccountN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnAccountN.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnAccountN.Location = New System.Drawing.Point(45, 477)
-        Me.btnAccountN.Name = "btnAccountN"
-        Me.btnAccountN.Size = New System.Drawing.Size(163, 44)
-        Me.btnAccountN.TabIndex = 13
-        Me.btnAccountN.Text = "Account"
-        Me.btnAccountN.TopColor = System.Drawing.Color.IndianRed
-        Me.btnAccountN.UseVisualStyleBackColor = True
+        Me.CtlAccount1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlAccount1.Location = New System.Drawing.Point(208, 50)
+        Me.CtlAccount1.Name = "CtlAccount1"
+        Me.CtlAccount1.Size = New System.Drawing.Size(922, 575)
+        Me.CtlAccount1.TabIndex = 5
         '
-        'btnNotiN
+        'CtlSystem1
         '
-        Me.btnNotiN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
-        Me.btnNotiN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnNotiN.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnNotiN.Location = New System.Drawing.Point(45, 288)
-        Me.btnNotiN.Name = "btnNotiN"
-        Me.btnNotiN.Size = New System.Drawing.Size(163, 44)
-        Me.btnNotiN.TabIndex = 12
-        Me.btnNotiN.Text = "Notification"
-        Me.btnNotiN.TopColor = System.Drawing.Color.IndianRed
-        Me.btnNotiN.UseVisualStyleBackColor = True
+        Me.CtlSystem1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlSystem1.Location = New System.Drawing.Point(208, 47)
+        Me.CtlSystem1.Name = "CtlSystem1"
+        Me.CtlSystem1.Size = New System.Drawing.Size(922, 575)
+        Me.CtlSystem1.TabIndex = 6
         '
-        'btnPrivacyN
+        'CtlAccount2
         '
-        Me.btnPrivacyN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
-        Me.btnPrivacyN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnPrivacyN.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnPrivacyN.Location = New System.Drawing.Point(45, 238)
-        Me.btnPrivacyN.Name = "btnPrivacyN"
-        Me.btnPrivacyN.Size = New System.Drawing.Size(163, 44)
-        Me.btnPrivacyN.TabIndex = 11
-        Me.btnPrivacyN.Text = "Privacy"
-        Me.btnPrivacyN.TopColor = System.Drawing.Color.IndianRed
-        Me.btnPrivacyN.UseVisualStyleBackColor = True
-        '
-        'btnProtectionN
-        '
-        Me.btnProtectionN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
-        Me.btnProtectionN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnProtectionN.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnProtectionN.Location = New System.Drawing.Point(45, 188)
-        Me.btnProtectionN.Name = "btnProtectionN"
-        Me.btnProtectionN.Size = New System.Drawing.Size(163, 44)
-        Me.btnProtectionN.TabIndex = 10
-        Me.btnProtectionN.Text = "Scan Center"
-        Me.btnProtectionN.TopColor = System.Drawing.Color.IndianRed
-        Me.btnProtectionN.UseVisualStyleBackColor = True
-        '
-        'btnDashboardN
-        '
-        Me.btnDashboardN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
-        Me.btnDashboardN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.btnDashboardN.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.btnDashboardN.Location = New System.Drawing.Point(45, 138)
-        Me.btnDashboardN.Name = "btnDashboardN"
-        Me.btnDashboardN.Size = New System.Drawing.Size(163, 44)
-        Me.btnDashboardN.TabIndex = 9
-        Me.btnDashboardN.Text = "Dashboard"
-        Me.btnDashboardN.TopColor = System.Drawing.Color.IndianRed
-        Me.btnDashboardN.UseVisualStyleBackColor = True
+        Me.CtlAccount2.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlAccount2.Location = New System.Drawing.Point(208, 50)
+        Me.CtlAccount2.Name = "CtlAccount2"
+        Me.CtlAccount2.Size = New System.Drawing.Size(922, 575)
+        Me.CtlAccount2.TabIndex = 7
         '
         'Form1
         '
@@ -334,10 +370,14 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(5, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(13, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1129, 625)
-        Me.Controls.Add(Me.CtlScanCenter1)
         Me.Controls.Add(Me.CtlDashboard2)
         Me.Controls.Add(Me.HeaderPanel)
         Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.CtlScanCenter1)
+        Me.Controls.Add(Me.CtlPrivacy1)
+        Me.Controls.Add(Me.CtlAccount1)
+        Me.Controls.Add(Me.CtlSystem1)
+        Me.Controls.Add(Me.CtlAccount2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form1"
         Me.Text = "Form1"
@@ -392,4 +432,8 @@ Partial Class Form1
     Friend WithEvents btnPrivacyN As MyButton
     Friend WithEvents btnProtectionN As MyButton
     Friend WithEvents CtlScanCenter1 As ctlScanCenter
+    Friend WithEvents CtlPrivacy1 As ctlPrivacy
+    Friend WithEvents CtlAccount1 As ctlAccount
+    Friend WithEvents CtlSystem1 As ctlSystem
+    Friend WithEvents CtlAccount2 As ctlAccount
 End Class

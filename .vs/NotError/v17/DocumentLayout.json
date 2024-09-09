@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Test\\Source Code\\NotError\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|d:\\test\\source code\\noterror\\control\\ctlsystem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|solutionrelative:control\\ctlsystem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|d:\\test\\source code\\noterror\\class\\myfunction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|solutionrelative:class\\myfunction.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|D:\\Test\\Source Code\\NotError\\control\\ctlsystem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|solutionrelative:control\\ctlsystem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|D:\\Test\\Source Code\\NotError\\forms\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|solutionrelative:forms\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|d:\\test\\source code\\noterror\\control\\ctlprivacy.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|solutionrelative:control\\ctlprivacy.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|D:\\Test\\Source Code\\NotError\\forms\\frmpopup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|solutionrelative:forms\\frmpopup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|D:\\Test\\Source Code\\NotError\\control\\ctlprivacy.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|solutionrelative:control\\ctlprivacy.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C82516D-0518-4161-970F-2E40A386E5A5}|NotError.vbproj|D:\\Test\\Source Code\\NotError\\forms\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -30,44 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ctlPrivacy.vb",
-              "DocumentMoniker": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlPrivacy.vb",
-              "RelativeDocumentMoniker": "CONTROL\\ctlPrivacy.vb",
-              "ToolTip": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlPrivacy.vb",
-              "RelativeToolTip": "CONTROL\\ctlPrivacy.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-06T09:57:06.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmPopup.vb [Design]",
-              "DocumentMoniker": "D:\\Test\\Source Code\\NotError\\FORMS\\frmPopup.vb",
-              "RelativeDocumentMoniker": "FORMS\\frmPopup.vb",
-              "ToolTip": "D:\\Test\\Source Code\\NotError\\FORMS\\frmPopup.vb [Design]",
-              "RelativeToolTip": "FORMS\\frmPopup.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-06T09:49:26.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ctlPrivacy.vb [Design]",
-              "DocumentMoniker": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlPrivacy.vb",
-              "RelativeDocumentMoniker": "CONTROL\\ctlPrivacy.vb",
-              "ToolTip": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlPrivacy.vb [Design]",
-              "RelativeToolTip": "CONTROL\\ctlPrivacy.vb [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-09-06T09:47:20.623Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -76,14 +40,53 @@
               "RelativeDocumentMoniker": "FORMS\\Form1.vb",
               "ToolTip": "D:\\Test\\Source Code\\NotError\\FORMS\\Form1.vb",
               "RelativeToolTip": "FORMS\\Form1.vb",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwBMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-09-04T10:37:11.883Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyFunction.vb",
+              "DocumentMoniker": "D:\\Test\\Source Code\\NotError\\CLASS\\MyFunction.vb",
+              "RelativeDocumentMoniker": "CLASS\\MyFunction.vb",
+              "ToolTip": "D:\\Test\\Source Code\\NotError\\CLASS\\MyFunction.vb",
+              "RelativeToolTip": "CLASS\\MyFunction.vb",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAIwJIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-08T14:53:25.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ctlSystem.vb",
+              "DocumentMoniker": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlSystem.vb",
+              "RelativeDocumentMoniker": "CONTROL\\ctlSystem.vb",
+              "ToolTip": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlSystem.vb",
+              "RelativeToolTip": "CONTROL\\ctlSystem.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-08T14:17:48.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ctlSystem.vb [Design]",
+              "DocumentMoniker": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlSystem.vb",
+              "RelativeDocumentMoniker": "CONTROL\\ctlSystem.vb",
+              "ToolTip": "D:\\Test\\Source Code\\NotError\\CONTROL\\ctlSystem.vb [Design]",
+              "RelativeToolTip": "CONTROL\\ctlSystem.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-09-08T14:12:06.849Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "D:\\Test\\Source Code\\NotError\\FORMS\\Form1.vb",
               "RelativeDocumentMoniker": "FORMS\\Form1.vb",

@@ -13,3 +13,7 @@ D:\Test\Source Code\NotError\obj\Debug\NotError.pdb
 D:\Test\Source Code\NotError\obj\Debug\NotError.ctlDashboard.resources
 D:\Test\Source Code\NotError\obj\Debug\NotError.frmPopup.resources
 D:\Test\Source Code\NotError\obj\Debug\NotError.ctlScanCenter.resources
+D:\Test\Source Code\NotError\obj\Debug\NotError.ctlAccount.resources
+D:\Test\Source Code\NotError\obj\Debug\NotError.ctlPrivacy.resources
+D:\Test\Source Code\NotError\obj\Debug\NotError.ctlSystem.resources
+D:\Test\Source Code\NotError\obj\Debug\NotError.frmSettings.resources
