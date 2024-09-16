@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/587b2e3e-caeb-4adc-b889-239ab6b23c14)# Antivirus Software with VPN and Firewall Control
+# Antivirus Software
 ## Overview
 This antivirus software is designed to scan your computer for viruses, connect to a VPN, control the firewall settings, and display your computer's performance statistics. It is an all-in-one solution for enhanced security and privacy.
 
