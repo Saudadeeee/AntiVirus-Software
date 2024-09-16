@@ -8,6 +8,7 @@ VPN Connection: Allows you to connect to a secure VPN to protect your internet a
 Firewall Control: Automatically turns on your system’s firewall for enhanced protection.
 Performance Monitoring: Shows the current performance metrics of your computer, such as CPU usage, memory usage, and more.
 Easily change themes.
+Can change Antivirus Data base by replace bases.txt file.
 ## Requirements
 .NET Framework (for Windows builds)
 Administrator privileges for firewall control and VPN connection
