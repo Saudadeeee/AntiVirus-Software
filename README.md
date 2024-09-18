@@ -15,9 +15,10 @@ Administrator privileges for firewall control and VPN connection
 VPN credentials (if using a private VPN service)
 ## Installation
 Clone this repository:
-
 git clone https://github.com/yourusername/antivirus-software.git
+
 cd antivirus-software
+
 Open the solution in Visual Studio or any compatible IDE.
 
 Build and run the application.
