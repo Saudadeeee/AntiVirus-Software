@@ -15,7 +15,7 @@ Administrator privileges for firewall control and VPN connection
 VPN credentials (if using a private VPN service)
 ## Installation
 Clone this repository:
-git clone https://github.com/yourusername/antivirus-software.git
+git clone https://github.com/Saudadeeee/antivirus-software.git
 
 cd antivirus-software
 
