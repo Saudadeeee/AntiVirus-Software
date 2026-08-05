@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ctlDashboard
     Inherits System.Windows.Forms.UserControl
 
@@ -61,7 +61,7 @@ Partial Class ctlDashboard
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Location = New System.Drawing.Point(52, 125)
@@ -82,9 +82,9 @@ Partial Class ctlDashboard
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.Control
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label3.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label3.Location = New System.Drawing.Point(94, 20)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(233, 24)
@@ -93,7 +93,7 @@ Partial Class ctlDashboard
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel2.Controls.Add(Me.MyButton2)
         Me.Panel2.Location = New System.Drawing.Point(649, 125)
         Me.Panel2.Name = "Panel2"
@@ -102,7 +102,7 @@ Partial Class ctlDashboard
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel3.Controls.Add(Me.Label4)
         Me.Panel3.Controls.Add(Me.PictureBox2)
         Me.Panel3.Location = New System.Drawing.Point(52, 257)
@@ -113,9 +113,9 @@ Partial Class ctlDashboard
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.SystemColors.Control
+        Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label4.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label4.Location = New System.Drawing.Point(62, 95)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(117, 24)
@@ -136,7 +136,7 @@ Partial Class ctlDashboard
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Black", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(43, 29)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(284, 53)
@@ -147,7 +147,7 @@ Partial Class ctlDashboard
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial Black", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Location = New System.Drawing.Point(48, 82)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(78, 23)
@@ -156,7 +156,7 @@ Partial Class ctlDashboard
         '
         'Panel4
         '
-        Me.Panel4.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel4.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel4.Controls.Add(Me.Label5)
         Me.Panel4.Controls.Add(Me.PictureBox3)
         Me.Panel4.Location = New System.Drawing.Point(316, 257)
@@ -167,9 +167,9 @@ Partial Class ctlDashboard
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.SystemColors.Control
+        Me.Label5.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label5.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label5.Location = New System.Drawing.Point(70, 95)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(134, 24)
@@ -188,7 +188,7 @@ Partial Class ctlDashboard
         '
         'Panel5
         '
-        Me.Panel5.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel5.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel5.Controls.Add(Me.Label6)
         Me.Panel5.Controls.Add(Me.PictureBox4)
         Me.Panel5.Location = New System.Drawing.Point(596, 257)
@@ -199,9 +199,9 @@ Partial Class ctlDashboard
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.Control
+        Me.Label6.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label6.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label6.Location = New System.Drawing.Point(49, 95)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(175, 24)
@@ -220,7 +220,7 @@ Partial Class ctlDashboard
         '
         'Panel6
         '
-        Me.Panel6.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel6.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel6.Controls.Add(Me.Label7)
         Me.Panel6.Controls.Add(Me.PictureBox5)
         Me.Panel6.Location = New System.Drawing.Point(52, 392)
@@ -231,9 +231,9 @@ Partial Class ctlDashboard
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.SystemColors.Control
+        Me.Label7.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label7.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label7.Location = New System.Drawing.Point(97, 105)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 24)
@@ -252,7 +252,7 @@ Partial Class ctlDashboard
         '
         'Panel7
         '
-        Me.Panel7.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel7.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel7.Controls.Add(Me.Label8)
         Me.Panel7.Controls.Add(Me.PictureBox6)
         Me.Panel7.Location = New System.Drawing.Point(316, 392)
@@ -263,9 +263,9 @@ Partial Class ctlDashboard
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.SystemColors.Control
+        Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label8.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label8.Location = New System.Drawing.Point(85, 105)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(108, 24)
@@ -284,7 +284,7 @@ Partial Class ctlDashboard
         '
         'MyButton2
         '
-        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.MyButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton2.Location = New System.Drawing.Point(19, 20)
@@ -292,14 +292,14 @@ Partial Class ctlDashboard
         Me.MyButton2.Size = New System.Drawing.Size(178, 87)
         Me.MyButton2.TabIndex = 0
         Me.MyButton2.Text = "Enable/Disable"
-        Me.MyButton2.TopColor = System.Drawing.Color.IndianRed
+        Me.MyButton2.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton2.UseVisualStyleBackColor = True
         '
         'ctlDashboard
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.Controls.Add(Me.Panel7)
         Me.Controls.Add(Me.Panel6)
         Me.Controls.Add(Me.Panel5)
@@ -358,3 +358,5 @@ Partial Class ctlDashboard
     Friend WithEvents PictureBox6 As PictureBox
     Friend WithEvents MyButton2 As MyButton
 End Class
+
+

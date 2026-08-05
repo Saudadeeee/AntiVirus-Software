@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frmSettings
     Inherits System.Windows.Forms.Form
 
@@ -84,7 +84,7 @@ Partial Class frmSettings
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel3.Controls.Add(Me.MyButton2)
         Me.Panel3.Controls.Add(Me.Label3)
         Me.Panel3.Location = New System.Drawing.Point(11, 50)
@@ -94,7 +94,7 @@ Partial Class frmSettings
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel2.Controls.Add(Me.MyButton1)
         Me.Panel2.Controls.Add(Me.Label1)
         Me.Panel2.Location = New System.Drawing.Point(11, 115)
@@ -105,9 +105,9 @@ Partial Class frmSettings
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.Control
+        Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label3.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label3.Location = New System.Drawing.Point(3, 10)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(198, 24)
@@ -117,9 +117,9 @@ Partial Class frmSettings
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.Control
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Label1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(3, 12)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(154, 24)
@@ -128,7 +128,7 @@ Partial Class frmSettings
         '
         'MyButton2
         '
-        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.MyButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton2.Location = New System.Drawing.Point(207, 0)
@@ -136,12 +136,12 @@ Partial Class frmSettings
         Me.MyButton2.Size = New System.Drawing.Size(80, 48)
         Me.MyButton2.TabIndex = 11
         Me.MyButton2.Text = "Enable"
-        Me.MyButton2.TopColor = System.Drawing.Color.IndianRed
+        Me.MyButton2.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton2.UseVisualStyleBackColor = True
         '
         'MyButton1
         '
-        Me.MyButton1.BottomColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.MyButton1.BottomColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.MyButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton1.Location = New System.Drawing.Point(207, 0)
@@ -149,7 +149,7 @@ Partial Class frmSettings
         Me.MyButton1.Size = New System.Drawing.Size(80, 48)
         Me.MyButton1.TabIndex = 12
         Me.MyButton1.Text = "Enable"
-        Me.MyButton1.TopColor = System.Drawing.Color.IndianRed
+        Me.MyButton1.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton1.UseVisualStyleBackColor = True
         '
         'CheckBox1
@@ -190,7 +190,7 @@ Partial Class frmSettings
         '
         'MyButton3
         '
-        Me.MyButton3.BottomColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.MyButton3.BottomColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.MyButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton3.Location = New System.Drawing.Point(18, 279)
@@ -198,7 +198,7 @@ Partial Class frmSettings
         Me.MyButton3.Size = New System.Drawing.Size(267, 48)
         Me.MyButton3.TabIndex = 20
         Me.MyButton3.Text = "Save Settings"
-        Me.MyButton3.TopColor = System.Drawing.Color.IndianRed
+        Me.MyButton3.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton3.UseVisualStyleBackColor = True
         '
         'btnClose
@@ -215,7 +215,7 @@ Partial Class frmSettings
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(311, 350)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -248,3 +248,5 @@ Partial Class frmSettings
     Friend WithEvents MyButton2 As MyButton
     Friend WithEvents btnClose As PictureBox
 End Class
+
+

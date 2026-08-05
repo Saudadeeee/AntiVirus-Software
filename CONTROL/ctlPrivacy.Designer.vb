@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class ctlPrivacy
     Inherits System.Windows.Forms.UserControl
 
@@ -58,7 +58,7 @@ Partial Class ctlPrivacy
         '
         'MyButton2
         '
-        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton2.Location = New System.Drawing.Point(3, 3)
@@ -66,14 +66,14 @@ Partial Class ctlPrivacy
         Me.MyButton2.Size = New System.Drawing.Size(771, 63)
         Me.MyButton2.TabIndex = 0
         Me.MyButton2.Text = "Enable"
-        Me.MyButton2.TopColor = System.Drawing.Color.Aqua
+        Me.MyButton2.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton2.UseVisualStyleBackColor = True
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial Black", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Location = New System.Drawing.Point(68, 92)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(559, 23)
@@ -84,7 +84,7 @@ Partial Class ctlPrivacy
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Black", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(63, 39)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(307, 53)
@@ -93,7 +93,7 @@ Partial Class ctlPrivacy
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel2.Controls.Add(Me.MyButton2)
         Me.Panel2.Location = New System.Drawing.Point(59, 412)
         Me.Panel2.Name = "Panel2"
@@ -102,7 +102,7 @@ Partial Class ctlPrivacy
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.SystemColors.Control
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.Panel1.Controls.Add(Me.MyButton1)
         Me.Panel1.Location = New System.Drawing.Point(59, 487)
         Me.Panel1.Name = "Panel1"
@@ -111,7 +111,7 @@ Partial Class ctlPrivacy
         '
         'MyButton1
         '
-        Me.MyButton1.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.MyButton1.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.MyButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton1.Location = New System.Drawing.Point(3, 3)
@@ -119,7 +119,7 @@ Partial Class ctlPrivacy
         Me.MyButton1.Size = New System.Drawing.Size(771, 63)
         Me.MyButton1.TabIndex = 1
         Me.MyButton1.Text = "Disable"
-        Me.MyButton1.TopColor = System.Drawing.Color.IndianRed
+        Me.MyButton1.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton1.UseVisualStyleBackColor = True
         '
         'PictureBox1
@@ -246,7 +246,7 @@ Partial Class ctlPrivacy
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.Controls.Add(Me.PictureBox12)
         Me.Controls.Add(Me.PictureBox11)
         Me.Controls.Add(Me.PictureBox10)
@@ -303,3 +303,5 @@ Partial Class ctlPrivacy
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox12 As PictureBox
 End Class
+
+

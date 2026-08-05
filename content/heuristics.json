@@ -1,0 +1,137 @@
+{
+  "name": "AVAK default heuristics",
+  "version": "1",
+  "description": "Weights and markers used by the heuristic provider. Edit any number here and restart AVAK - no rebuild needed. Copy this file to %LOCALAPPDATA%\\AVAK\\heuristics.json to override it without touching the installation.",
+
+  "thresholds": {
+    "low": 18,
+    "medium": 32,
+    "high": 50,
+    "critical": 70
+  },
+
+  "sensitivityMultipliers": {
+    "lenient": 0.75,
+    "balanced": 1.0,
+    "aggressive": 1.25
+  },
+
+  "extensions": {
+    "executable": [".exe", ".dll", ".scr", ".com", ".sys", ".ocx", ".cpl", ".drv", ".efi"],
+    "script": [".ps1", ".psm1", ".vbs", ".vbe", ".js", ".jse", ".wsf", ".wsh", ".bat", ".cmd", ".hta", ".py", ".sh", ".reg"],
+    "document": [".doc", ".docm", ".xls", ".xlsm", ".ppt", ".pptm", ".docx", ".xlsx", ".pptx", ".rtf"],
+    "lure": [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".jpg", ".jpeg", ".png", ".txt", ".mp4", ".zip", ".rar", ".invoice"]
+  },
+
+  "structural": {
+    "doubleExtension": 34,
+    "rightToLeftOverride": 40,
+    "executableWithWrongExtension": 30,
+    "writableExecutableSection": 20,
+    "packerSectionNames": 24,
+    "veryHighEntropy": 20,
+    "veryHighEntropyAggressiveBonus": 6,
+    "highEntropy": 10,
+    "nativeSubsystem": 8,
+    "malformedPeHeaders": 8,
+    "unusualSectionCount": 14,
+    "officeMacroProject": 26,
+    "officeAutoOpen": 22,
+    "autorunLaunches": 28,
+    "stagedInTemp": 12,
+    "hidingInRecycleBin": 26,
+    "hiddenAndSystem": 16,
+    "longEncodedBlob": 22,
+    "mediumEncodedBlob": 10
+  },
+
+  "entropy": {
+    "veryHigh": 7.6,
+    "high": 7.2,
+    "packedLabel": 7.4
+  },
+
+  "encodedBlob": {
+    "longRun": 3000,
+    "mediumRun": 900
+  },
+
+  "packerSectionNames": [
+    "UPX0", "UPX1", "UPX2", ".aspack", ".adata", "ASPack", ".nsp0",
+    "Themida", ".themida", ".vmp0", ".vmp1", "FSG!", "MPRESS1", "MEW"
+  ],
+
+  "riskyApis": [
+    { "name": "WriteProcessMemory", "weight": 12 },
+    { "name": "CreateRemoteThread", "weight": 14 },
+    { "name": "VirtualAllocEx", "weight": 10 },
+    { "name": "NtUnmapViewOfSection", "weight": 14 },
+    { "name": "SetWindowsHookEx", "weight": 9 },
+    { "name": "QueueUserAPC", "weight": 10 },
+    { "name": "URLDownloadToFile", "weight": 13 },
+    { "name": "InternetOpenUrl", "weight": 7 },
+    { "name": "WinHttpConnect", "weight": 5 },
+    { "name": "ShellExecuteEx", "weight": 4 },
+    { "name": "WinExec", "weight": 8 },
+    { "name": "CreateProcessInternal", "weight": 6 },
+    { "name": "IsDebuggerPresent", "weight": 5 },
+    { "name": "CheckRemoteDebuggerPresent", "weight": 6 },
+    { "name": "NtQueryInformationProcess", "weight": 4 },
+    { "name": "CryptEncrypt", "weight": 6 },
+    { "name": "BCryptEncrypt", "weight": 6 },
+    { "name": "CryptGenRandom", "weight": 2 },
+    { "name": "GetAsyncKeyState", "weight": 11 },
+    { "name": "GetForegroundWindow", "weight": 3 },
+    { "name": "BitBlt", "weight": 4 },
+    { "name": "AdjustTokenPrivileges", "weight": 6 },
+    { "name": "LookupPrivilegeValue", "weight": 4 },
+    { "name": "RegSetValueEx", "weight": 3 },
+    { "name": "CreateServiceA", "weight": 7 },
+    { "name": "CreateServiceW", "weight": 7 },
+    { "name": "EnumProcessModules", "weight": 4 },
+    { "name": "Process32Next", "weight": 4 },
+    { "name": "VirtualProtect", "weight": 5 }
+  ],
+
+  "apiScoring": {
+    "manyHitsThreshold": 3,
+    "manyHitsCap": 46,
+    "fewHitsMinimumWeight": 12,
+    "fewHitsCap": 18
+  },
+
+  "scriptMarkers": [
+    { "needle": "frombase64string",         "weight": 16, "why": "base64 payload decode" },
+    { "needle": "invoke-expression",        "weight": 18, "why": "Invoke-Expression" },
+    { "needle": "iex(",                     "weight": 18, "why": "IEX shorthand" },
+    { "needle": "-encodedcommand",          "weight": 22, "why": "encoded PowerShell command" },
+    { "needle": "-enc ",                    "weight": 20, "why": "encoded PowerShell command" },
+    { "needle": "downloadstring",           "weight": 20, "why": "remote script download" },
+    { "needle": "downloadfile",             "weight": 16, "why": "remote file download" },
+    { "needle": "webclient",                "weight": 12, "why": "System.Net.WebClient" },
+    { "needle": "start-process",            "weight": 8,  "why": "spawns a process" },
+    { "needle": "bypass -",                 "weight": 10, "why": "execution-policy bypass" },
+    { "needle": "executionpolicy bypass",   "weight": 14, "why": "execution-policy bypass" },
+    { "needle": "hidden",                   "weight": 6,  "why": "hidden window" },
+    { "needle": "wscript.shell",            "weight": 14, "why": "WScript.Shell automation" },
+    { "needle": "shell.application",        "weight": 12, "why": "Shell.Application automation" },
+    { "needle": "adodb.stream",             "weight": 14, "why": "ADODB.Stream file write" },
+    { "needle": "eval(unescape",            "weight": 20, "why": "obfuscated eval" },
+    { "needle": "document.write(unescape",  "weight": 16, "why": "obfuscated write" },
+    { "needle": "powershell -w",            "weight": 14, "why": "hidden PowerShell" },
+    { "needle": "certutil -decode",         "weight": 20, "why": "certutil payload decode" },
+    { "needle": "bitsadmin /transfer",      "weight": 18, "why": "bitsadmin download" },
+    { "needle": "vssadmin delete shadows",  "weight": 30, "why": "deletes volume shadow copies" },
+    { "needle": "bcdedit /set",             "weight": 18, "why": "boot configuration tampering" },
+    { "needle": "wbadmin delete",           "weight": 24, "why": "deletes backups" },
+    { "needle": "cipher /w",                "weight": 12, "why": "wipes free space" },
+    { "needle": "reg add hk",               "weight": 8,  "why": "registry autorun write" },
+    { "needle": "schtasks /create",         "weight": 12, "why": "creates a scheduled task" },
+    { "needle": "attrib +h +s",             "weight": 10, "why": "hides itself" }
+  ],
+
+  "scriptScoring": {
+    "cap": 60,
+    "maxReasonsShown": 4
+  }
+}

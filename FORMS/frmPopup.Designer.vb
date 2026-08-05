@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class frmPopup
     Inherits System.Windows.Forms.Form
 
@@ -58,7 +58,7 @@ Partial Class frmPopup
         '
         'MyButton2
         '
-        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.MyButton2.BottomColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.MyButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton2.Location = New System.Drawing.Point(192, 154)
@@ -66,12 +66,12 @@ Partial Class frmPopup
         Me.MyButton2.Size = New System.Drawing.Size(175, 48)
         Me.MyButton2.TabIndex = 10
         Me.MyButton2.Text = "Yes"
-        Me.MyButton2.TopColor = System.Drawing.Color.IndianRed
+        Me.MyButton2.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton2.UseVisualStyleBackColor = True
         '
         'MyButton1
         '
-        Me.MyButton1.BottomColor = System.Drawing.Color.FromArgb(CType(CType(166, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.MyButton1.BottomColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.MyButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.MyButton1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.MyButton1.Location = New System.Drawing.Point(11, 154)
@@ -79,14 +79,14 @@ Partial Class frmPopup
         Me.MyButton1.Size = New System.Drawing.Size(175, 48)
         Me.MyButton1.TabIndex = 9
         Me.MyButton1.Text = "Noooo"
-        Me.MyButton1.TopColor = System.Drawing.Color.IndianRed
+        Me.MyButton1.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.MyButton1.UseVisualStyleBackColor = True
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial Black", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.Control
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(77, 79)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(232, 53)
@@ -108,7 +108,7 @@ Partial Class frmPopup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(380, 233)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -129,3 +129,5 @@ Partial Class frmPopup
     Friend WithEvents PictureBox8 As PictureBox
     Friend WithEvents lblTitle As Label
 End Class
+
+

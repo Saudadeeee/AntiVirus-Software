@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    A minimal AVAK detection plugin.
+
+    Build it, then copy the DLL next to AVAK.exe under plugins\ :
+
+      dotnet build samples\SamplePlugin\SamplePlugin.vbproj -c Release
+      copy samples\SamplePlugin\bin\Release\net8.0-windows\SamplePlugin.dll ^
+           bin\Release\net8.0-windows\plugins\
+
+    Restart AVAK (or press "Reload plugins" on the Rules page) and the providers
+    below appear in the list, ready to switch on and off.
+
+    Private=false on the reference keeps AVAK.dll out of the plugin's output so
+    the plugin binds to the copy the host already loaded.
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>SamplePlugin</RootNamespace>
+    <AssemblyName>SamplePlugin</AssemblyName>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <NoWarn>$(NoWarn);CA1416</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AVAK.vbproj">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+
+</Project>

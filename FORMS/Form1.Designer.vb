@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -68,7 +68,7 @@ Partial Class Form1
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
         Me.Panel1.Controls.Add(Me.btnHelpN)
         Me.Panel1.Controls.Add(Me.btnSettingN)
         Me.Panel1.Controls.Add(Me.btnAccountN)
@@ -85,7 +85,7 @@ Partial Class Form1
         '
         'btnHelpN
         '
-        Me.btnHelpN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnHelpN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.btnHelpN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnHelpN.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnHelpN.Location = New System.Drawing.Point(45, 577)
@@ -93,12 +93,12 @@ Partial Class Form1
         Me.btnHelpN.Size = New System.Drawing.Size(163, 44)
         Me.btnHelpN.TabIndex = 15
         Me.btnHelpN.Text = "Help"
-        Me.btnHelpN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnHelpN.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnHelpN.UseVisualStyleBackColor = True
         '
         'btnSettingN
         '
-        Me.btnSettingN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnSettingN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.btnSettingN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnSettingN.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnSettingN.Location = New System.Drawing.Point(45, 527)
@@ -106,12 +106,12 @@ Partial Class Form1
         Me.btnSettingN.Size = New System.Drawing.Size(163, 44)
         Me.btnSettingN.TabIndex = 14
         Me.btnSettingN.Text = "Setting"
-        Me.btnSettingN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnSettingN.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnSettingN.UseVisualStyleBackColor = True
         '
         'btnAccountN
         '
-        Me.btnAccountN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnAccountN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.btnAccountN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnAccountN.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnAccountN.Location = New System.Drawing.Point(45, 477)
@@ -119,12 +119,12 @@ Partial Class Form1
         Me.btnAccountN.Size = New System.Drawing.Size(163, 44)
         Me.btnAccountN.TabIndex = 13
         Me.btnAccountN.Text = "Account"
-        Me.btnAccountN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnAccountN.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnAccountN.UseVisualStyleBackColor = True
         '
         'btnNotiN
         '
-        Me.btnNotiN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnNotiN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.btnNotiN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnNotiN.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnNotiN.Location = New System.Drawing.Point(45, 288)
@@ -132,12 +132,12 @@ Partial Class Form1
         Me.btnNotiN.Size = New System.Drawing.Size(163, 44)
         Me.btnNotiN.TabIndex = 12
         Me.btnNotiN.Text = "System Performance"
-        Me.btnNotiN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnNotiN.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnNotiN.UseVisualStyleBackColor = True
         '
         'btnPrivacyN
         '
-        Me.btnPrivacyN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnPrivacyN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.btnPrivacyN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnPrivacyN.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnPrivacyN.Location = New System.Drawing.Point(45, 238)
@@ -145,12 +145,12 @@ Partial Class Form1
         Me.btnPrivacyN.Size = New System.Drawing.Size(163, 44)
         Me.btnPrivacyN.TabIndex = 11
         Me.btnPrivacyN.Text = "Privacy"
-        Me.btnPrivacyN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnPrivacyN.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnPrivacyN.UseVisualStyleBackColor = True
         '
         'btnProtectionN
         '
-        Me.btnProtectionN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnProtectionN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.btnProtectionN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnProtectionN.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnProtectionN.Location = New System.Drawing.Point(45, 188)
@@ -158,12 +158,12 @@ Partial Class Form1
         Me.btnProtectionN.Size = New System.Drawing.Size(163, 44)
         Me.btnProtectionN.TabIndex = 10
         Me.btnProtectionN.Text = "Scan Center"
-        Me.btnProtectionN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnProtectionN.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnProtectionN.UseVisualStyleBackColor = True
         '
         'btnDashboardN
         '
-        Me.btnDashboardN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(140, Byte), Integer), CType(CType(3, Byte), Integer), CType(CType(3, Byte), Integer))
+        Me.btnDashboardN.BottomColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.btnDashboardN.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(163, Byte))
         Me.btnDashboardN.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.btnDashboardN.Location = New System.Drawing.Point(45, 138)
@@ -171,12 +171,12 @@ Partial Class Form1
         Me.btnDashboardN.Size = New System.Drawing.Size(163, 44)
         Me.btnDashboardN.TabIndex = 9
         Me.btnDashboardN.Text = "Dashboard"
-        Me.btnDashboardN.TopColor = System.Drawing.Color.IndianRed
+        Me.btnDashboardN.TopColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.btnDashboardN.UseVisualStyleBackColor = True
         '
         'Panel2
         '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.Panel2.Controls.Add(Me.imgAccount)
         Me.Panel2.Controls.Add(Me.imgSetting)
         Me.Panel2.Controls.Add(Me.imgHelp)
@@ -252,7 +252,7 @@ Partial Class Form1
         '
         'imgDashboard
         '
-        Me.imgDashboard.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.imgDashboard.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.imgDashboard.Image = Global.NotError.My.Resources.Resources.DashboardNew
         Me.imgDashboard.Location = New System.Drawing.Point(0, 138)
         Me.imgDashboard.Name = "imgDashboard"
@@ -272,7 +272,7 @@ Partial Class Form1
         '
         'HeaderPanel
         '
-        Me.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(25, Byte), Integer))
+        Me.HeaderPanel.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
         Me.HeaderPanel.Controls.Add(Me.btnMinimize)
         Me.HeaderPanel.Controls.Add(Me.btnClose)
         Me.HeaderPanel.Controls.Add(Me.lblTitle)
@@ -318,7 +318,7 @@ Partial Class Form1
         '
         'CtlDashboard2
         '
-        Me.CtlDashboard2.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlDashboard2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.CtlDashboard2.Location = New System.Drawing.Point(208, 50)
         Me.CtlDashboard2.Name = "CtlDashboard2"
         Me.CtlDashboard2.Size = New System.Drawing.Size(922, 575)
@@ -326,7 +326,7 @@ Partial Class Form1
         '
         'CtlScanCenter1
         '
-        Me.CtlScanCenter1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlScanCenter1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.CtlScanCenter1.Location = New System.Drawing.Point(208, 50)
         Me.CtlScanCenter1.Name = "CtlScanCenter1"
         Me.CtlScanCenter1.Size = New System.Drawing.Size(922, 575)
@@ -334,7 +334,7 @@ Partial Class Form1
         '
         'CtlPrivacy1
         '
-        Me.CtlPrivacy1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlPrivacy1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.CtlPrivacy1.Location = New System.Drawing.Point(208, 50)
         Me.CtlPrivacy1.Name = "CtlPrivacy1"
         Me.CtlPrivacy1.Size = New System.Drawing.Size(922, 575)
@@ -342,7 +342,7 @@ Partial Class Form1
         '
         'CtlAccount1
         '
-        Me.CtlAccount1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlAccount1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.CtlAccount1.Location = New System.Drawing.Point(208, 50)
         Me.CtlAccount1.Name = "CtlAccount1"
         Me.CtlAccount1.Size = New System.Drawing.Size(922, 575)
@@ -350,7 +350,7 @@ Partial Class Form1
         '
         'CtlSystem1
         '
-        Me.CtlSystem1.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlSystem1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.CtlSystem1.Location = New System.Drawing.Point(208, 47)
         Me.CtlSystem1.Name = "CtlSystem1"
         Me.CtlSystem1.Size = New System.Drawing.Size(922, 575)
@@ -358,7 +358,7 @@ Partial Class Form1
         '
         'CtlAccount2
         '
-        Me.CtlAccount2.BackColor = System.Drawing.Color.FromArgb(CType(CType(115, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(27, Byte), Integer))
+        Me.CtlAccount2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer), CType(CType(30, Byte), Integer))
         Me.CtlAccount2.Location = New System.Drawing.Point(208, 50)
         Me.CtlAccount2.Name = "CtlAccount2"
         Me.CtlAccount2.Size = New System.Drawing.Size(922, 575)
@@ -368,7 +368,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(5, Byte), Integer), CType(CType(11, Byte), Integer), CType(CType(13, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1129, 625)
         Me.Controls.Add(Me.CtlDashboard2)
         Me.Controls.Add(Me.HeaderPanel)
@@ -437,3 +437,5 @@ Partial Class Form1
     Friend WithEvents CtlSystem1 As ctlSystem
     Friend WithEvents CtlAccount2 As ctlAccount
 End Class
+
+

@@ -1,0 +1,74 @@
+{
+  "name": "Destructive commands",
+  "version": "2026.08.05",
+  "author": "AVAK",
+  "description": "Commands that destroy backups or recovery options. Common ransomware preamble. Disable this pack if you write system-administration scripts.",
+  "license": "MIT",
+  "updated": "2026-08-05T00:00:00",
+
+  "hashes": [],
+
+  "patterns": [
+    {
+      "name": "Suspicious.Script.ShadowCopyWipe",
+      "ascii": "vssadmin delete shadows /all /quiet",
+      "severity": "Critical",
+      "maxOffset": 0,
+      "extensions": [".bat", ".cmd", ".ps1", ".vbs", ".js", ".hta", ".wsf", ".exe"]
+    },
+    {
+      "name": "Suspicious.Script.BackupCatalogWipe",
+      "ascii": "wbadmin delete catalog -quiet",
+      "severity": "Critical",
+      "maxOffset": 0,
+      "extensions": [".bat", ".cmd", ".ps1", ".vbs", ".js", ".hta", ".wsf", ".exe"]
+    },
+    {
+      "name": "Suspicious.Script.RecoveryDisable",
+      "ascii": "bcdedit /set {default} recoveryenabled no",
+      "severity": "Critical",
+      "maxOffset": 0
+    },
+    {
+      "name": "Suspicious.PowerShell.EncodedCommand",
+      "ascii": "powershell -nop -w hidden -enc",
+      "severity": "High",
+      "maxOffset": 0,
+      "extensions": [".bat", ".cmd", ".ps1", ".vbs", ".js", ".hta", ".lnk", ".wsf"]
+    },
+    {
+      "name": "Suspicious.Script.CertutilRemoteFetch",
+      "ascii": "certutil -urlcache -split -f",
+      "severity": "High",
+      "maxOffset": 0,
+      "extensions": [".bat", ".cmd", ".ps1", ".vbs", ".js", ".hta", ".wsf"]
+    },
+    {
+      "name": "Suspicious.Script.MshtaRemote",
+      "ascii": "mshta http",
+      "severity": "High",
+      "maxOffset": 0,
+      "extensions": [".bat", ".cmd", ".ps1", ".vbs", ".js", ".hta", ".lnk", ".wsf"]
+    },
+    {
+      "name": "Suspicious.Script.RegsvrRemoteScriptlet",
+      "ascii": "regsvr32 /s /n /u /i:http",
+      "severity": "High",
+      "maxOffset": 0
+    },
+    {
+      "name": "Suspicious.Autorun.Descriptor",
+      "ascii": "[autorun]",
+      "severity": "Low",
+      "maxOffset": 512,
+      "extensions": [".inf"]
+    },
+    {
+      "name": "Suspicious.Office.MacroProject",
+      "ascii": "vbaProject.bin",
+      "severity": "Low",
+      "maxOffset": 0,
+      "extensions": [".docx", ".xlsx", ".pptx"]
+    }
+  ]
+}
